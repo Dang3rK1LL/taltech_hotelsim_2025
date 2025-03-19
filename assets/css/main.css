@@ -2012,6 +2012,7 @@ input, select, textarea {
 		-ms-transition: all 0.25s ease-in-out;
 		transition: all 0.25s ease-in-out;
 		-webkit-appearance: none;
+		appearance: none;
 		position: relative;
 		display: inline-block;
 		background: #3d3d3d;
@@ -2182,7 +2183,7 @@ input, select, textarea {
 	#header {
 		position: relative;
 		margin: 0;
-		background-image: url("images/overlay.png"), url("../../images/header.jpg");
+		background-image: url("images/overlay.png"), url("../../images/mountain-with-pine-trees-covered-with-fogs.jpg");
 		background-size: auto, cover;
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
@@ -2249,15 +2250,15 @@ input, select, textarea {
 			}
 
 			.main > .content.style1 {
-				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #b39c68, #a56365, #412e4c);
+				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #1F3A2C, #3E4E34, #6B6A5E);
 			}
 
 			.main > .content.style2 {
-				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #384955, #655361, #85505f);
+				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #2B4F40, #7A4B3A, #A67B4F, #373A36, #A09688);
 			}
 
 			.main > .content.style3 {
-				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #5f796b, #3a4e59, #2f394e);
+				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #2D4033, #845F3E, #60352F, #A38E6D, #6F6D5B);
 			}
 
 			.main > .content.style4 {
