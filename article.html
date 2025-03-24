@@ -73,6 +73,13 @@
             h2 {
                 font-size: 1.2rem;
             }
+
+            .back-arrow {
+                font-size: 0.9rem;
+                margin-left: 1rem;
+                margin-bottom: 1rem;
+                padding: 0.4em 0.8em;
+            }
         }
 
         section#header p {
@@ -95,9 +102,8 @@
         }
 
         .back-arrow {
-            position: absolute;
-            top: 1.5rem;
-            left: 1.5rem;
+            display: inline-block;
+            margin: 0 0 1.5rem 1.5rem;
             text-decoration: none;
             font-weight: 600;
             font-size: 1rem;
@@ -119,12 +125,12 @@
 <body class="is-preload">
       
     <section id="header">
+        <a href="index.html" class="back-arrow" aria-label="Back to homepage">
+            &#8592; Back to homepage
+        </a>
         <header>
             <h1>Q&A with Wildlife Expert Taavi Tamm</h1>
             <p>Explore Estonia's wilderness through the eyes of our in-house naturalist</p>
-            <p><a href="index.html" class="back-arrow" aria-label="Back to homepage">
-                &#8592; Back to homepage
-            </a></p>
         </header>
     </section>
 
